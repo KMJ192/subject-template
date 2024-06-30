@@ -1,0 +1,9 @@
+@mixin grid {
+  display: grid;
+  display: -ms-grid;
+  display: -moz-grid;
+}
+
+.grid {
+  @include grid;
+}

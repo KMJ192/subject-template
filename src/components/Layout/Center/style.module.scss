@@ -1,0 +1,13 @@
+@import '../display.scss';
+
+.center {
+  height: inherit;
+  width: inherit;
+  @include display;
+  &.vertical {
+    @include center-vertical;
+  }
+  &.horizontal {
+    @include center-horizontal;
+  }
+}
